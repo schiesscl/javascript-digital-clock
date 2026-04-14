@@ -6,16 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Digital Clock</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <!-- DSEG7: open-source 7-segment LCD font (OFL license) via jsDelivr -->
+        <link href="https://cdn.jsdelivr.net/npm/dseg@0.46.0/css/dseg.min.css" rel="stylesheet">
+        <!-- Orbitron for the date -->
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <div id="clock">
-            <div class="container clock-container" id="container">
-                <div id="time">
-                    Digital Clock
-                </div>
-                <div id="date">
-                    with JavaScript
+            <div id="bezel">
+                <div class="container clock-container" id="container">
+                    <!-- LCD Screen -->
+                    <div id="screen">
+                        <!-- Ghost / unlit segments behind the real digits -->
+                        <div id="time-ghost">88:88:88</div>
+                        <!-- Real lit digits -->
+                        <div id="time">00:00:00</div>
+                        <div id="date">Loading...</div>
+                    </div>
                 </div>
             </div>
         </div>
