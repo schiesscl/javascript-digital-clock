@@ -5,8 +5,9 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-A visually pleasing vintage LCD 7-segment digital clock mimicking the aesthetic of classic digital wristwatches. This project serves as a practical exercise in DOM manipulation, modular styling, and continuous event loops using vanilla JavaScript.
+**[View Live Demo](https://schiesscl.github.io/javascript-digital-clock/)**
 
+A visually pleasing vintage LCD 7-segment digital clock mimicking the aesthetic of classic digital wristwatches. This project serves as a practical exercise in DOM manipulation, modular styling, and continuous event loops using vanilla JavaScript.
 
 ## Features
 
